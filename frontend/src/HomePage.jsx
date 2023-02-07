@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HomePage() {
   return (
-    <div>
+    <div id="main">
       main div chagnge this
     </div>
   );
