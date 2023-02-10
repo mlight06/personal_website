@@ -1,6 +1,6 @@
 import React from 'react';
-import {createRoot} from 'react-dom/client';
-import HomePage from './HomePage';
+import { createRoot } from 'react-dom/client';
+import HomePage from './components/HomePage';
 
 // const element = {
 //   <BrowserRouter>
@@ -16,6 +16,6 @@ const root = createRoot(document.getElementById('root'));
 root.render(
 
   // <App />
-    <HomePage />
+  <HomePage />,
 
 );
