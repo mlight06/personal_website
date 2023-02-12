@@ -1,7 +1,14 @@
 #main {
-  background-color: red;
+  background-color: #BDB76B;
+  height: 100vh;
+  width: 100vw;
+}
+#heading_main {
+  display: flex;
+  justify-content: center;
 }
 #introduction {
   display: flex;
   justify-content: center;
+  width: 400px;
 }
