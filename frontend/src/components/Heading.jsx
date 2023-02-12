@@ -6,19 +6,27 @@ export default function Heading() {
     <div id="heading_main">
       <motion.div
         animate={{
-          x: 10,
-          y: 10,
-          rotate: 1,
+          x: ['0rem', '10rem', '-10rem', '0rem'],
+          y: ['0px', '20px', '0px'],
         }}
       >
-
         <div id="introduction">
           I`m Michael Light
         </div>
       </motion.div>
-      <div id="introduction_two">
-        and I`m a fullstack software developer
-      </div>
+      <motion.div
+        animate={{
+          x: ['0rem', '10rem', '-10rem', '0rem'],
+          y: ['0px', '20px', '0px'],
+        }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      >
+        <div id="introduction">
+          and I`m a fullstack software developer
+        </div>
+      </motion.div>
     </div>
   );
 }
