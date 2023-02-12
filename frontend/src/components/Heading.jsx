@@ -6,9 +6,9 @@ export default function Heading() {
     <div id="heading_main">
       <motion.div
         animate={{
-          x: 0,
-          y: 2,
-          rotate: 2,
+          x: 10,
+          y: 10,
+          rotate: 1,
         }}
       >
 

@@ -1,4 +1,3 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -10,21 +9,21 @@ module.exports = {
     path: path.resolve(__dirname, './frontend/deploy'),
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
   },
-  module:{
+  module: {
     rules: [
       {
         test: /\.jsx$|\.js$/,
         exclude: /node_modules/,
-        loader: "babel-loader",
+        loader: 'babel-loader',
         options: {
-          presets: ["@babel/preset-env", "@babel/preset-react"],
+          presets: ['@babel/preset-env', '@babel/preset-react'],
           plugins: [
-            "@babel/plugin-transform-runtime"
+            '@babel/plugin-transform-runtime',
           ],
-        }
-      }
+        },
+      },
     ],
-  }
+  },
 };

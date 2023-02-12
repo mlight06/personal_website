@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm test",
     "start": "nodemon ./backend/server/index.js",
-    "dev": "webpack --mode development",
+    "dev": "webpack --mode development -w",
     "build": "webpack --mode production"
   },
   "repository": {
