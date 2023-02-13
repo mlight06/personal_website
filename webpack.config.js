@@ -14,15 +14,33 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx$|\.js$/,
+        test: /\.(jsx|js|png)$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        options: {
-          presets: ['@babel/preset-env', '@babel/preset-react'],
-          plugins: [
-            '@babel/plugin-transform-runtime',
-          ],
-        },
+        use: [
+
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env', '@babel/preset-react'],
+              plugins: [
+                '@babel/plugin-transform-runtime',
+              ],
+            },
+          },
+          // {
+          //   loader: 'image-webpack-loader',
+          //   options: {
+          //     bypassOnDebug: true, // webpack@1.x
+          //     disable: true, // webpack@2.x and newer
+          //     mozjpeg: {
+          //       progressive: true,
+          //     },
+          //   },
+          // },
+          // {
+          //   loader: 'file-loader',
+          // },
+        ],
       },
     ],
   },

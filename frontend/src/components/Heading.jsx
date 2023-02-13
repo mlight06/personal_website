@@ -14,7 +14,8 @@ export default function Heading() {
           }}
         >
           <Paper
-            id="introduction"
+            variant="outlined"
+            className="introduction"
             elevation={3}
           >
             <div>
@@ -29,10 +30,40 @@ export default function Heading() {
           }}
         >
           <Paper
+            variant="outlined"
             elevation={3}
+            className="introduction"
           >
-            <div id="introduction">
+            <div>
               and I`m a fullstack software developer
+            </div>
+          </Paper>
+        </motion.div>
+        <motion.div
+          animate={{
+            x: ['0rem', '10rem', '-10rem', '0rem'],
+            y: ['0px', '20px', '0px'],
+          }}
+        >
+          <Paper
+            className="introduction"
+          >
+            Thanks for checking out my website.
+          </Paper>
+        </motion.div>
+        <motion.div
+          animate={{
+            x: ['0rem', '-10rem', '10rem', '0rem'],
+            y: ['0px', '20px', '0px'],
+          }}
+        >
+          <Paper
+            variant="outlined"
+            elevation={3}
+            className="introduction"
+          >
+            <div>
+              Click here to see more
             </div>
           </Paper>
         </motion.div>

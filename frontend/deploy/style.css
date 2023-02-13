@@ -7,8 +7,10 @@
   display: flex;
   justify-content: center;
 }
-#introduction {
+.introduction {
   display: flex;
   justify-content: center;
-  width: 400px;
+  padding: 0 20px 0 20px;
+  font-size:xx-large;
+  margin: 1rem 0 1rem 0;
 }
