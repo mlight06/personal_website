@@ -16,6 +16,7 @@ const root = createRoot(document.getElementById('root'));
 root.render(
 
   // <App />
+  // eslint-disable-next-line react/jsx-filename-extension
   <HomePage />,
 
 );
