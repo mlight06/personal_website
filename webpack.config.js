@@ -16,9 +16,15 @@ module.exports = {
     rules: [
       {
         test: /\.(jsx|js|png)$/,
+        // type: 'asset/resource',
         exclude: /node_modules/,
         use: [
-
+          // {
+          //   loader: 'file-loader',
+          //   options: {
+          //     name: '/frontend/src/images[name].[ext]',
+          //   },
+          // },
           {
             loader: 'babel-loader',
             options: {
@@ -43,8 +49,23 @@ module.exports = {
           // },
           // {
           //   loader: 'file-loader',
+          //   options: {
+          //     name: '/frontend/src/images[name].[ext]',
+          //   },
           // },
         ],
+      },
+      {
+        // {
+        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        // type: 'asset/resource',
+        use: [
+          {
+            loader: 'file-loader',
+            options: {},
+          },
+        ],
+        // },
       },
     ],
   },

@@ -1,15 +1,15 @@
 import React from 'react';
 import Hobbies from './Hobbies';
 
-// import photo from '../images/profile.png';
+import photo from '../images/profile.png';
 
 export default function Menu() {
   return (
     <div>
       Menu
-      {/* <div>
+      <div>
         <img src={photo} alt="profile" />
-      </div> */}
+      </div>
       <Hobbies />
     </div>
   );
