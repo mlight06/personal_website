@@ -14,3 +14,11 @@
   font-size:xx-large;
   margin: 1rem 0 1rem 0;
 }
+.profile-pic {
+  height: 500px;
+  width: 300px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Paper } from '@mui/material';
 
+import photo from '../images/profile.png';
+
 export default function Heading() {
   return (
     <div id="heading_main">
@@ -19,7 +21,7 @@ export default function Heading() {
             elevation={3}
           >
             <div>
-              I`m Michael Light
+              {'I\'m Michael Light'}
             </div>
           </Paper>
         </motion.div>
@@ -35,7 +37,7 @@ export default function Heading() {
             className="introduction"
           >
             <div>
-              and I`m a fullstack software developer
+              {'and I\'m a fullstack software developer'}
             </div>
           </Paper>
         </motion.div>
@@ -57,6 +59,9 @@ export default function Heading() {
             y: ['0px', '20px', '0px'],
           }}
         >
+          <div className="image-container">
+            <img src={photo} className="profile-pic" alt="profile" />
+          </div>
           <Paper
             variant="outlined"
             elevation={3}
