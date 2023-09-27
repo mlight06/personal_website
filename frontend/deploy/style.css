@@ -22,3 +22,11 @@
   display: flex;
   justify-content: center;
 }
+.hobbies-pic {
+  height: 500px;
+  width: 700px;
+}
+.hobbies-pic-container {
+  display: flex;
+  justify-content: center;
+}
