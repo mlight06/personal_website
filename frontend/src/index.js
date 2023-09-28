@@ -1,22 +1,39 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  createRoutesFromElements,
+} from 'react-router-dom';
 import HomePage from './components/HomePage';
+import Hobbies from './components/Hobbies';
 
-// const element = {
-//   <BrowserRouter>
-// }
-// function App () {
-//   return (
-//     <div>
-//       Hello World
-//     </div>
-//   )
-// }
+// const router = createBrowserRouter([
+//   {
+//     path: '/',
+//     // eslint-disable-next-line react/jsx-filename-extension
+//     element: <HomePage />,
+//     children: [
+//       {
+//         path: 'hobbies',
+//         element: <Hobbies />,
+//       },
+//     ],
+//   },
+// ]);
+const router = createBrowserRouter(createRoutesFromElements(
+  <Route path="/">
+    <Route index element={<HomePage />} />
+    <Route path="hobbies" element={<Hobbies />} />
+  </Route>,
+));
 const root = createRoot(document.getElementById('root'));
 root.render(
 
-  // <App />
-  // eslint-disable-next-line react/jsx-filename-extension
-  <HomePage />,
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
 
 );

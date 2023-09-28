@@ -7,7 +7,8 @@ const PORT = process.env.PORT || 3000;
 app.use(Express.static(path.join(__dirname, '../../frontend/deploy')));
 app.use(Express.json());
 
-app.get('/', (req, res) => {
+// the * here will allow the server to serve our index.html file for *every* routes in our router
+app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../../frontend/deploy/index.html'));
 });
 
