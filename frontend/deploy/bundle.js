@@ -918,7 +918,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Hobbies)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/dist/index.js\");\n/* harmony import */ var _images_nyc_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/nyc.jpg */ \"./frontend/src/images/nyc.jpg\");\n\n\n\nfunction Hobbies() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {\n    to: \"/\"\n  }, \"Back to Home\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"I love to travel!\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"hobbies-pic-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"In 2023, I made it to the following places:\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _images_nyc_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n    alt: \"nyc\",\n    className: \"hobbies-pic\"\n  }))));\n}\n\n//# sourceURL=webpack://website_template/./frontend/src/components/Hobbies.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Hobbies)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/dist/index.js\");\n/* harmony import */ var _images_nyc_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/nyc.jpg */ \"./frontend/src/images/nyc.jpg\");\n/* harmony import */ var _images_santa_barbara_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/santa_barbara.jpg */ \"./frontend/src/images/santa_barbara.jpg\");\n/* harmony import */ var _images_la_junta_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/la_junta.jpg */ \"./frontend/src/images/la_junta.jpg\");\n/* harmony import */ var _images_mt_rainier_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/mt_rainier.jpg */ \"./frontend/src/images/mt_rainier.jpg\");\n/* harmony import */ var _images_vancouver_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/vancouver.jpg */ \"./frontend/src/images/vancouver.jpg\");\n\n\n\n\n\n\n\nfunction Hobbies() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {\n    to: \"/\"\n  }, \"Back to Home\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"I love to travel!\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"In 2023, I made it to the following places:\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"hobbies-pic-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _images_nyc_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n    alt: \"nyc\",\n    className: \"hobbies-pic\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"This was taken from the Staten Island ferry, August 2023\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"hobbies-pic-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _images_santa_barbara_jpg__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n    alt: \"nyc\",\n    className: \"hobbies-pic\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"A beautiful view of Santa Barbara, CA May 2023\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"hobbies-pic-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _images_la_junta_jpg__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n    alt: \"nyc\",\n    className: \"hobbies-pic\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"La Junta Beach, CA May 2023\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"hobbies-pic-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _images_mt_rainier_jpg__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n    alt: \"nyc\",\n    className: \"hobbies-pic\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"Mt. Rainier standing tall in the background, Washington June 2023\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"hobbies-pic-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _images_vancouver_jpg__WEBPACK_IMPORTED_MODULE_5__[\"default\"],\n    alt: \"nyc\",\n    className: \"hobbies-pic\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"The architecture of Vancouver is breathtaking, June 2019\")));\n}\n\n//# sourceURL=webpack://website_template/./frontend/src/components/Hobbies.jsx?");
 
 /***/ }),
 
@@ -977,6 +977,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./frontend/src/images/la_junta.jpg":
+/*!******************************************!*\
+  !*** ./frontend/src/images/la_junta.jpg ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"9c1b3859b63e781fc1a6082f245b5fa5.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/la_junta.jpg?");
+
+/***/ }),
+
+/***/ "./frontend/src/images/mt_rainier.jpg":
+/*!********************************************!*\
+  !*** ./frontend/src/images/mt_rainier.jpg ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"946bb42a0aa5300cd32ccc58df111132.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/mt_rainier.jpg?");
+
+/***/ }),
+
 /***/ "./frontend/src/images/nyc.jpg":
 /*!*************************************!*\
   !*** ./frontend/src/images/nyc.jpg ***!
@@ -985,6 +1007,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"e81472f37d0666f717c099121a7ff121.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/nyc.jpg?");
+
+/***/ }),
+
+/***/ "./frontend/src/images/santa_barbara.jpg":
+/*!***********************************************!*\
+  !*** ./frontend/src/images/santa_barbara.jpg ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"202f836d31d856d08d9fd149ae5357da.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/santa_barbara.jpg?");
+
+/***/ }),
+
+/***/ "./frontend/src/images/vancouver.jpg":
+/*!*******************************************!*\
+  !*** ./frontend/src/images/vancouver.jpg ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b0210a68651b2c9e3df6a6ed17b967d2.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/vancouver.jpg?");
 
 /***/ }),
 
