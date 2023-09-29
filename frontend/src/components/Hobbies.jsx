@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import nyc from '../images/nyc.jpg';
 
 export default function Hobbies() {
   return (
     <div>
+      <Link to="/">Back to Home</Link>
 
       <div>
         I love to travel!
