@@ -9,6 +9,7 @@ import {
 } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import Hobbies from './components/Hobbies';
+import Portfolio from './components/Portfolio';
 
 // const router = createBrowserRouter([
 //   {
@@ -27,6 +28,7 @@ const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/">
     <Route index element={<HomePage />} />
     <Route path="hobbies" element={<Hobbies />} />
+    <Route path="portfolio" element={<Portfolio />} />
   </Route>,
 ));
 const root = createRoot(document.getElementById('root'));
