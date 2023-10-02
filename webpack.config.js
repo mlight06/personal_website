@@ -57,12 +57,14 @@ module.exports = {
       },
       {
         // {
-        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        test: /\.(?:ico|gif|png|jpg|jpeg|pdf)$/i,
         // type: 'asset/resource',
         use: [
           {
             loader: 'file-loader',
-            options: {},
+            options: {
+              name: '[name].[ext]',
+            },
           },
         ],
         // },
