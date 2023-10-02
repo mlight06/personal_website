@@ -10,6 +10,7 @@ import {
 import HomePage from './components/HomePage';
 import Hobbies from './components/Hobbies';
 import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 
 // const router = createBrowserRouter([
 //   {
@@ -29,6 +30,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route index element={<HomePage />} />
     <Route path="hobbies" element={<Hobbies />} />
     <Route path="portfolio" element={<Portfolio />} />
+    <Route path="projects" element={<Projects />} />
   </Route>,
 ));
 const root = createRoot(document.getElementById('root'));

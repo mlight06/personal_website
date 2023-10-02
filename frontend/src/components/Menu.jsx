@@ -18,6 +18,11 @@ export default function Menu() {
           <Link to="/portfolio">Portfolio</Link>
         </Button>
       </div>
+      <div>
+        <Button variant="text">
+          <Link to="/projects">Projects</Link>
+        </Button>
+      </div>
     </div>
   );
 }
