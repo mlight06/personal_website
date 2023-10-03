@@ -1160,7 +1160,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Portfolio)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/dist/index.js\");\n/* harmony import */ var react_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-pdf */ \"./node_modules/react-pdf/dist/esm/Document.js\");\n/* harmony import */ var react_pdf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-pdf */ \"./node_modules/react-pdf/dist/esm/Page.js\");\n/* harmony import */ var _images_Resume2023_pdf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/Resume2023.pdf */ \"./frontend/src/images/Resume2023.pdf\");\n\n\n\n\nfunction Portfolio() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {\n    to: \"/\"\n  }, \"Back to Home\")), \"Portfolio\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_pdf__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n    file: _images_Resume2023_pdf__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_pdf__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n    pageNumber: 1\n  }))));\n}\n\n//# sourceURL=webpack://website_template/./frontend/src/components/Portfolio.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Portfolio)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/dist/index.js\");\n/* harmony import */ var react_pdf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-pdf */ \"./node_modules/react-pdf/dist/esm/pdfjs.js\");\n/* harmony import */ var react_pdf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-pdf */ \"./node_modules/react-pdf/dist/esm/Document.js\");\n/* harmony import */ var react_pdf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-pdf */ \"./node_modules/react-pdf/dist/esm/Page.js\");\n/* harmony import */ var _images_Resume2023_pdf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/Resume2023.pdf */ \"./frontend/src/images/Resume2023.pdf\");\n\n\n\n\nfunction Portfolio() {\n  react_pdf__WEBPACK_IMPORTED_MODULE_2__[\"default\"].GlobalWorkerOptions.workerSrc = \"//unpkg.com/pdfjs-dist@\".concat(react_pdf__WEBPACK_IMPORTED_MODULE_2__[\"default\"].version, \"/legacy/build/pdf.worker.min.js\");\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {\n    to: \"/\"\n  }, \"Back to Home\")), \"Portfolio\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_pdf__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n    file: _images_Resume2023_pdf__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_pdf__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n    pageNumber: 1\n  }))));\n}\n\n//# sourceURL=webpack://website_template/./frontend/src/components/Portfolio.jsx?");
 
 /***/ }),
 
@@ -1193,7 +1193,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"69a82c9cab97bfd84920314bc7250f2a.png\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/profile.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"profile.png\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/profile.png?");
 
 /***/ }),
 
@@ -1215,7 +1215,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"2fd6bbc953c61af7074282276382090f.pdf\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/Resume2023.pdf?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"Resume2023.pdf\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/Resume2023.pdf?");
 
 /***/ }),
 
@@ -1226,7 +1226,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"9c1b3859b63e781fc1a6082f245b5fa5.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/la_junta.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"la_junta.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/la_junta.jpg?");
 
 /***/ }),
 
@@ -1237,7 +1237,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"946bb42a0aa5300cd32ccc58df111132.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/mt_rainier.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"mt_rainier.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/mt_rainier.jpg?");
 
 /***/ }),
 
@@ -1248,7 +1248,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"e81472f37d0666f717c099121a7ff121.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/nyc.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"nyc.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/nyc.jpg?");
 
 /***/ }),
 
@@ -1259,7 +1259,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"202f836d31d856d08d9fd149ae5357da.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/santa_barbara.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"santa_barbara.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/santa_barbara.jpg?");
 
 /***/ }),
 
@@ -1270,7 +1270,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b0210a68651b2c9e3df6a6ed17b967d2.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/vancouver.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"vancouver.jpg\");\n\n//# sourceURL=webpack://website_template/./frontend/src/images/vancouver.jpg?");
 
 /***/ }),
 
