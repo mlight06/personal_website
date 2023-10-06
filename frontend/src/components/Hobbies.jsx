@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Button } from '@mui/material';
 import nyc from '../images/nyc.jpg';
 import santaBarbara from '../images/santa_barbara.jpg';
 import laJunta from '../images/la_junta.jpg';
@@ -9,8 +10,9 @@ import vancouver from '../images/vancouver.jpg';
 export default function Hobbies() {
   return (
     <div>
-      <Link to="/">Back to Home</Link>
-
+      <Button href="/">
+        Back to Home
+      </Button>
       <div>
         I love to travel!
       </div>

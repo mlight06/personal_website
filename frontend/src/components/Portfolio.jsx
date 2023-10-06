@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Document, Page, pdfjs } from 'react-pdf';
+import { Button } from '@mui/material';
 import resume from '../images/Resume2023.pdf';
 
 export default function Portfolio() {
@@ -8,7 +8,9 @@ export default function Portfolio() {
   return (
     <div>
       <div>
-        <Link to="/">Back to Home</Link>
+        <Button href="/">
+          Back to Home
+        </Button>
       </div>
       Portfolio
       <div>
