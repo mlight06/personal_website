@@ -13,10 +13,12 @@ export default function Menu() {
       {/* <div> */}
       <Accordion>
         <AccordionSummary>
-          <Typography>
+          <div className="menu-text">
 
-            Menu
-          </Typography>
+            <Typography>
+              Menu
+            </Typography>
+          </div>
         </AccordionSummary>
         <AccordionDetails>
           <List>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Paper } from '@mui/material';
+import { Paper, Avatar } from '@mui/material';
 
 import photo from '../images/profile.png';
 
@@ -60,7 +60,8 @@ export default function Heading() {
           }}
         >
           <div className="image-container">
-            <img src={photo} className="profile-pic" alt="profile" />
+            {/* <img src={photo} className="profile-pic" alt="profile" /> */}
+            <Avatar src={photo} sx={{ width: 300, height: 360 }} />
           </div>
           <Paper
             variant="outlined"
