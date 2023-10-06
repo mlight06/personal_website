@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Button, List, Divider, ListItem, Accordion, AccordionSummary, AccordionDetails,
+  Button, List, Divider, ListItem, Accordion, AccordionSummary, AccordionDetails, Typography,
 } from '@mui/material';
 // import Hobbies from './Hobbies';
 
@@ -13,7 +13,10 @@ export default function Menu() {
       {/* <div> */}
       <Accordion>
         <AccordionSummary>
-          Menu
+          <Typography>
+
+            Menu
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <List>
