@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Paper, Avatar } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 import photo from '../images/profile.png';
 
@@ -68,9 +69,11 @@ export default function Heading() {
             elevation={3}
             className="introduction"
           >
-            <div>
+
+            <Link to="/aboutme">
+
               Click here to see more
-            </div>
+            </Link>
           </Paper>
         </motion.div>
       </div>
