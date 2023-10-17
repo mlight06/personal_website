@@ -44,9 +44,17 @@ export default function Menu() {
             {/* </div>
       <div> */}
             <ListItem>
-
               <Button variant="text">
                 <Link to="/projects">Projects</Link>
+              </Button>
+            </ListItem>
+
+            <Divider />
+            {/* </div>
+      <div> */}
+            <ListItem>
+              <Button variant="text">
+                <Link to="/aboutme">About Me</Link>
               </Button>
             </ListItem>
           </List>
