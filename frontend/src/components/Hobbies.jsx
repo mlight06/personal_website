@@ -1,18 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
 import nyc from '../images/nyc.jpg';
 import santaBarbara from '../images/santa_barbara.jpg';
 import laJunta from '../images/la_junta.jpg';
 import mtRainier from '../images/mt_rainier.jpg';
 import vancouver from '../images/vancouver.jpg';
+import Menu from './Menu';
 
 export default function Hobbies() {
   return (
-    <div>
-      <Button href="/">
-        Back to Home
-      </Button>
+    <div id="main">
+      <div>
+        <Menu />
+      </div>
       <div>
         I love to travel!
       </div>
@@ -61,6 +62,9 @@ export default function Hobbies() {
           The architecture of Vancouver is breathtaking, June 2019
         </div>
       </div>
+      <Button href="/">
+        Back to Home
+      </Button>
     </div>
 
   );

@@ -1,9 +1,13 @@
 import React from 'react';
 import { Button } from '@mui/material';
+import Menu from './Menu';
 
 export default function AboutMe() {
   return (
-    <div>
+    <div id="main">
+      <div>
+        <Menu />
+      </div>
       <div>
         Hello! My name is Michael and I have lived in beatiful Colorado for all my life.
       </div>
