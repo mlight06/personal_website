@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@mui/material';
 
 export default function AboutMe() {
   return (
@@ -11,6 +12,9 @@ export default function AboutMe() {
         What I enjoy most about software is the problem-solving aspect.
         I pride myself on critical thinking and figuring out solutions to problems that need solving.
       </div>
+      <Button href="/">
+        Back to Home
+      </Button>
     </div>
   );
 }
