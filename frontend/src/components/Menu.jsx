@@ -28,6 +28,13 @@ export default function Menu() {
             <ListItem>
 
               <Button variant="text">
+                <Link to="/">Homepage</Link>
+              </Button>
+            </ListItem>
+            <Divider />
+            <ListItem>
+
+              <Button variant="text">
                 <Link to="/hobbies">Hobbies</Link>
               </Button>
             </ListItem>
