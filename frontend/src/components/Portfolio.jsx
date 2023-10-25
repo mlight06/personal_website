@@ -12,14 +12,15 @@ export default function Portfolio() {
         <Menu />
 
       </div>
-      Portfolio
-      {/* <div>
-        <Document file={resume}>
-          <Page pageNumber={1} />
-        </Document>
-      </div> */}
-      <div className="resume">
-        <embed src={resume} title="resume" width="80%" height="80%" />
+      <div className="resume-block">
+
+        <div className="portfolio-header">
+
+          Portfolio
+        </div>
+        <div className="resume">
+          <embed src={resume} title="resume" width="80%" height="80%" />
+        </div>
       </div>
       <div>
 

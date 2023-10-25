@@ -31,7 +31,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route index element={<HomePage />} />
     {/* <Route path="hobbies" element={<Hobbies />} /> */}
     <Route path="portfolio" element={<Portfolio />} />
-    <Route path="projects" element={<Projects />} />
+    {/* <Route path="projects" element={<Projects />} /> */}
     <Route path="aboutme" element={<AboutMe />} />
   </Route>,
 ));
