@@ -19,7 +19,7 @@ export default function Heading() {
           <Paper
             variant="outlined"
             className="introduction"
-            elevation={3}
+            elevation={0}
           >
             <div>
               {'I\'m Michael Light'}
@@ -34,7 +34,7 @@ export default function Heading() {
         >
           <Paper
             variant="outlined"
-            elevation={3}
+            elevation={0}
             className="introduction"
           >
             <div>
@@ -66,7 +66,7 @@ export default function Heading() {
           </div>
           <Paper
             variant="outlined"
-            elevation={3}
+            elevation={0}
             className="introduction"
           >
 

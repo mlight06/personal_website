@@ -11,7 +11,9 @@
   }
 
 #main {
-  background-color: #BDB76B;
+  /* background-color: #BDB76B; */
+  background-image: url('../src/images/main-background.jpg');
+  background-size: 100%;
   height: 100vh;
   width: 100vw;
 }
