@@ -32,13 +32,13 @@ export default function Menu() {
               </Button>
             </ListItem>
             <Divider />
-            <ListItem>
+            {/* <ListItem>
 
               <Button variant="text">
                 <Link to="/hobbies">Hobbies</Link>
               </Button>
             </ListItem>
-            <Divider />
+            <Divider /> */}
             {/* </div>
       <div> */}
             <ListItem>
@@ -50,13 +50,13 @@ export default function Menu() {
             <Divider />
             {/* </div>
       <div> */}
-            <ListItem>
+            {/* <ListItem>
               <Button variant="text">
                 <Link to="/projects">Projects</Link>
               </Button>
             </ListItem>
 
-            <Divider />
+            <Divider /> */}
             {/* </div>
       <div> */}
             <ListItem>

@@ -29,7 +29,7 @@ import AboutMe from './components/AboutMe';
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/">
     <Route index element={<HomePage />} />
-    <Route path="hobbies" element={<Hobbies />} />
+    {/* <Route path="hobbies" element={<Hobbies />} /> */}
     <Route path="portfolio" element={<Portfolio />} />
     <Route path="projects" element={<Projects />} />
     <Route path="aboutme" element={<AboutMe />} />
