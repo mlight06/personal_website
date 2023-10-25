@@ -5,8 +5,10 @@ import Menu from './Menu';
 export default function AboutMe() {
   return (
     <div id="main">
-      <div>
+
+      <div className="menu-sidebar">
         <Menu />
+
       </div>
       <div>
         Hello! My name is Michael and I have lived in beatiful Colorado for all my life.

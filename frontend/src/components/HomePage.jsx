@@ -5,8 +5,15 @@ import Menu from './Menu';
 export default function HomePage() {
   return (
     <div id="main">
-      <Menu />
-      <Heading />
+
+      <div className="menu-sidebar">
+        <Menu />
+
+      </div>
+      <div>
+        <Heading />
+
+      </div>
     </div>
   );
 }

@@ -1,21 +1,25 @@
 import React from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
+// import { Document, Page, pdfjs } from 'react-pdf';
 import { Button } from '@mui/material';
 import resume from '../images/Resume2023.pdf';
 import Menu from './Menu';
 
 export default function Portfolio() {
-  pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.js`;
   return (
     <div id="main">
-      <div>
+
+      <div className="menu-sidebar">
         <Menu />
+
       </div>
       Portfolio
-      <div>
+      {/* <div>
         <Document file={resume}>
           <Page pageNumber={1} />
         </Document>
+      </div> */}
+      <div className="resume">
+        <embed src={resume} title="resume" width="80%" height="80%" />
       </div>
       <div>
 
