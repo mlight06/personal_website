@@ -10,7 +10,7 @@ export default function Menu() {
   const theme = createTheme({
     typography: {
       h5: {
-        color: '#561C37',
+        color: '#589BF5',
       },
     },
   });

@@ -53,7 +53,11 @@
   display: flex;
   float: left;
   /* height: 100%; */
-  border-right: 7px solid red;
+  /* border-right: 7px solid linear-gradient(blue,green, yellow); */
+  border-right-style: solid;
+  border-right-width: 10px;
+  /* border-right-color: greenyellow; */
+  border-image: linear-gradient(45deg, #98C327, #ED6E36, #7C0B95)1;
   height: 100vh;
 }
 
