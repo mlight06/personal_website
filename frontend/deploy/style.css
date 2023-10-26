@@ -16,20 +16,23 @@
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
   /* }  */
+  body {
+    background-image: url(/newbackground.png);
+  }
 
 #main {
   /* background-image: linear-gradient(blue, green, pink); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   /* background-color: #BDB76B; */
-  background-image: url(/newbackground.png);
+  /* background-image: url(/newbackground.png); */
   /* background-image: linear-gradient(blue, green, pink); */
   /* background-size: 100%;
   height: 180vh;
   /* height: auto; */
   /* width: 100vw; */
-  height: 100%;
-  width: auto;
+  /* height: 100%;
+  width: auto; */
 }
 #heading_main {
   display: flex;
