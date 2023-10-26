@@ -52,9 +52,11 @@
 .menu-sidebar{
   display: flex;
   float: left;
-  height: 100%;
-  border-right: 2px solid red;
+  /* height: 100%; */
+  border-right: 7px solid red;
+  height: 100vh;
 }
+
 /* .image-container {
   display: flex;
   justify-content: center;
@@ -75,12 +77,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 270px;
+  height: 100%;
   /* margin: 2rem 0; */
 }
 .menu-text {
   /* align-items: center; */
   text-align: center;
+  color: pink;
 }
 
 .resume {

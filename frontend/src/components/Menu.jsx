@@ -1,70 +1,56 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Button, List, Divider, ListItem, Accordion, AccordionSummary, AccordionDetails, Typography,
+  Button, List, Divider, ListItem, createTheme, Typography, ThemeProvider,
 } from '@mui/material';
+
 // import Hobbies from './Hobbies';
 
 export default function Menu() {
+  const theme = createTheme({
+    typography: {
+      h5: {
+        color: '#561C37',
+      },
+    },
+  });
   return (
     <div className="menu-container">
-      {/* Menu */}
-      {/* <Hobbies /> */}
-      {/* <div> */}
-      {/* <Accordion>
-        <AccordionSummary> */}
-      <div className="menu-text">
+      <ThemeProvider theme={theme}>
+        <List>
+          <ListItem>
+            <Button variant="text">
+              <Link to="/">
+                <Typography variant="h5">
+                  Homepage
+                </Typography>
+              </Link>
+            </Button>
+          </ListItem>
+          <Divider />
+          <ListItem>
 
-        {/* <Typography>
-          Menu
-        </Typography> */}
-      </div>
-      {/* </AccordionSummary>
-        <AccordionDetails> */}
-      <List>
-        {/* <ListItem>
-          Menu
-        </ListItem> */}
-        <ListItem>
+            <Button variant="text">
+              <Link to="/portfolio">
+                <Typography variant="h5">
+                  Portfolio
+                </Typography>
+              </Link>
+            </Button>
+          </ListItem>
+          <Divider />
+          <ListItem>
+            <Button variant="text">
+              <Link to="/aboutme">
+                <Typography variant="h5">
+                  About Me
+                </Typography>
 
-          <Button variant="text">
-            <Link to="/">Homepage</Link>
-          </Button>
-        </ListItem>
-        <Divider />
-        {/* <ListItem>
-
-              <Button variant="text">
-                <Link to="/hobbies">Hobbies</Link>
-              </Button>
-            </ListItem>
-            <Divider /> */}
-        {/* </div>
-      <div> */}
-        <ListItem>
-
-          <Button variant="text">
-            <Link to="/portfolio">Portfolio</Link>
-          </Button>
-        </ListItem>
-        <Divider />
-        {/* </div>
-      <div> */}
-        {/* <ListItem>
-              <Button variant="text">
-                <Link to="/projects">Projects</Link>
-              </Button>
-            </ListItem>
-
-            <Divider /> */}
-        {/* </div>
-      <div> */}
-        <ListItem>
-          <Button variant="text">
-            <Link to="/aboutme">About Me</Link>
-          </Button>
-        </ListItem>
-      </List>
+              </Link>
+            </Button>
+          </ListItem>
+        </List>
+      </ThemeProvider>
       {/* </AccordionDetails>
       </Accordion> */}
       {/* </div> */}
