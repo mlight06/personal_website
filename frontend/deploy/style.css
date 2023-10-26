@@ -38,7 +38,8 @@
 }
 #heading_main {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: 30%;
 }
 .introduction {
   display: flex;
@@ -63,10 +64,11 @@
   height: 100vh;
 }
 
-/* .image-container {
+.image-container {
   display: flex;
   justify-content: center;
-} */
+
+}
 /* .hobbies-pic {
   height: 500px;
   width: 700px;
