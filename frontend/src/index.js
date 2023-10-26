@@ -8,9 +8,9 @@ import {
   createRoutesFromElements,
 } from 'react-router-dom';
 import HomePage from './components/HomePage';
-import Hobbies from './components/Hobbies';
+// import Hobbies from './components/Hobbies';
 import Portfolio from './components/Portfolio';
-import Projects from './components/Projects';
+// import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
 
 // const router = createBrowserRouter([
