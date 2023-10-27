@@ -8,11 +8,9 @@ export default function HomePage() {
 
       <div className="menu-sidebar">
         <Menu />
-
       </div>
       <div>
         <Heading />
-
       </div>
     </div>
   );

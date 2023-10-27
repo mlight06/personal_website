@@ -1,10 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Paper, Avatar } from '@mui/material';
+import { Paper } from '@mui/material';
 import { Link } from 'react-router-dom';
-
-import photo from '../images/profile.png';
-// import background from '../images/newbackground.png';
 
 export default function Heading() {
   return (

@@ -118,8 +118,12 @@
 .portfolio-header {
   display: flex;
   justify-content: center;
-  border: 5px dotted blue;
+  /* border: 5px dotted blue; */
+  border-style: dotted;
+  border-width: 5px;
+  border-image: linear-gradient(45deg, #BBDE2D, green)1;
   font-family: 'Monoton', sans-serif;  font-size: 72px;
+  color:white;
   /* width: 90%; */
   padding: 2rem 0;
   margin: 3rem 1rem 3rem 1rem;
