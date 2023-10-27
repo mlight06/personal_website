@@ -1,24 +1,32 @@
 import React from 'react';
-import { Button } from '@mui/material';
+import { Button, Paper, Typography } from '@mui/material';
 import Menu from './Menu';
 
 export default function AboutMe() {
   return (
     <div id="main">
-
       <div className="menu-sidebar">
         <Menu />
+      </div>
+      <div id="heading_main">
+        <Paper>
+          <Typography>
 
+            Hello! My name is Michael and I have lived in beatiful Colorado for all my life.
+          </Typography>
+        </Paper>
       </div>
-      <div>
-        Hello! My name is Michael and I have lived in beatiful Colorado for all my life.
-      </div>
-      <div>
-        After 10 years in the healthcare industry I made a pivot into software, and couldn't
-        be happier!
-        What I enjoy most about software is the problem-solving aspect.
-        I pride myself on critical thinking and figuring out solutions to problems that need
-        solving.
+      <div id="heading_main">
+        <Paper>
+          <Typography>
+
+            After 10 years in the healthcare industry I made a pivot into software, and couldn't
+            be happier!
+            What I enjoy most about software is the problem-solving aspect.
+            I pride myself on critical thinking and figuring out solutions to problems that need
+            solving.
+          </Typography>
+        </Paper>
       </div>
       <Button href="/">
         Back to Home
