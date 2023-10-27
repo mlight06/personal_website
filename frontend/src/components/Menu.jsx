@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Button, List, Divider, ListItem, createTheme, Typography, ThemeProvider,
+  Button, List, Divider, ListItem, createTheme, Typography, ThemeProvider, Avatar,
 } from '@mui/material';
-
+import photo from '../images/profile.png';
 // import Hobbies from './Hobbies';
 
 export default function Menu() {
@@ -20,6 +20,13 @@ export default function Menu() {
         <div className="menu-text">
 
           <List>
+            <ListItem>
+
+              <div className="image-container">
+                {/* <img src={photo} className="profile-pic" alt="profile" /> */}
+                <Avatar src={photo} sx={{ width: 200, height: 260 }} />
+              </div>
+            </ListItem>
             <ListItem>
               <Button variant="text">
                 <Link to="/">

@@ -61,10 +61,6 @@ export default function Heading() {
             y: ['0px', '20px', '0px'],
           }}
         >
-          <div className="image-container">
-            {/* <img src={photo} className="profile-pic" alt="profile" /> */}
-            <Avatar src={photo} sx={{ width: 300, height: 360 }} />
-          </div>
           <Paper
             variant="outlined"
             elevation={0}
