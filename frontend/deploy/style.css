@@ -38,8 +38,15 @@
 }
 #heading_main {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
   margin-left: 30%;
+}
+#welcome {
+  color: white;
+  font-size: 24px;
+  margin: 3rem 0 6rem 0;
 }
 .introduction {
   display: flex;

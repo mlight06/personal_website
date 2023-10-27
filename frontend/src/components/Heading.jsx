@@ -6,12 +6,31 @@ import { Link } from 'react-router-dom';
 export default function Heading() {
   return (
     <div id="heading_main">
+      <div id="welcome">
+        <motion.div
+          animate={{ x: 100 }}
+          // transition={{ type: 'spring', stiffness: 100, delay: 1 }}
+          transition={{
+            ease: 'linear',
+            duration: 2,
+            x: { duration: 1 },
+          }}
+        >
+          Welcome
+        </motion.div>
+      </div>
       <div>
 
         <motion.div
-          animate={{
-            x: ['0rem', '10rem', '-10rem', '0rem'],
-            y: ['0px', '20px', '0px'],
+          // animate={{
+          //   x: ['0rem', '10rem', '-10rem', '0rem'],
+          //   y: ['0px', '20px', '0px'],
+          // }}
+          animate={{ x: -50 }}
+          transition={{
+            ease: 'linear',
+            duration: 2,
+            x: { duration: 1 },
           }}
         >
           <Paper
@@ -25,9 +44,15 @@ export default function Heading() {
           </Paper>
         </motion.div>
         <motion.div
-          animate={{
-            x: ['0rem', '-10rem', '10rem', '0rem'],
-            y: ['0px', '20px', '0px'],
+          // animate={{
+          //   x: ['0rem', '-10rem', '10rem', '0rem'],
+          //   y: ['0px', '20px', '0px'],
+          // }}
+          animate={{ x: 50 }}
+          transition={{
+            ease: 'linear',
+            duration: 2,
+            x: { duration: 1 },
           }}
         >
           <Paper
@@ -41,9 +66,15 @@ export default function Heading() {
           </Paper>
         </motion.div>
         <motion.div
-          animate={{
-            x: ['0rem', '10rem', '-10rem', '0rem'],
-            y: ['0px', '20px', '0px'],
+          // animate={{
+          //   x: ['0rem', '10rem', '-10rem', '0rem'],
+          //   y: ['0px', '20px', '0px'],
+          // }}
+          animate={{ x: -50 }}
+          transition={{
+            ease: 'linear',
+            duration: 2,
+            x: { duration: 1 },
           }}
         >
           <Paper
@@ -53,9 +84,15 @@ export default function Heading() {
           </Paper>
         </motion.div>
         <motion.div
-          animate={{
-            x: ['0rem', '-10rem', '10rem', '0rem'],
-            y: ['0px', '20px', '0px'],
+          // animate={{
+          //   x: ['0rem', '-10rem', '10rem', '0rem'],
+          //   y: ['0px', '20px', '0px'],
+          // }}
+          animate={{ x: 50 }}
+          transition={{
+            ease: 'linear',
+            duration: 2,
+            x: { duration: 1 },
           }}
         >
           <Paper
