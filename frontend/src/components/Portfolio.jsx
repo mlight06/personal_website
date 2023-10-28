@@ -3,6 +3,8 @@ import React from 'react';
 import { Button } from '@mui/material';
 import resume from '../images/Resume2023.pdf';
 import Menu from './Menu';
+import Card from './Card';
+import repos from '../constants/repos';
 
 export default function Portfolio() {
   return (
@@ -21,6 +23,10 @@ export default function Portfolio() {
         <div className="resume">
           <embed src={resume} title="resume" width="80%" height="80%" />
         </div>
+      </div>
+      <div>
+        {repos.map((repo) => <Card link={repo.link} picture={repo.picture} />)}
+        {/* {repos.map((repo) => console.log('repo', repo.link))} */}
       </div>
       <div>
 
