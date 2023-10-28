@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from '@mui/material';
 import resume from '../images/Resume2023.pdf';
 import Menu from './Menu';
-import Card from './Card';
+import Tile from './Card';
 import repos from '../constants/repos';
 
 export default function Portfolio() {
@@ -25,7 +25,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div>
-        {repos.map((repo) => <Card link={repo.link} picture={repo.picture} />)}
+        {repos.map((repo) => <Tile link={repo.link} picture={repo.picture} />)}
         {/* {repos.map((repo) => console.log('repo', repo.link))} */}
       </div>
       <div>

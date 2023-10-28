@@ -1,9 +1,10 @@
 import React from 'react';
+import { Card } from '@mui/material';
 
 // eslint-disable-next-line react/prop-types
-export default function Card({ link, picture }) {
+export default function Tile({ link, picture }) {
   return (
-    <div>
+    <Card>
       <div>
         <img src={picture} alt={`project-${picture}`} />
       </div>
@@ -12,6 +13,6 @@ export default function Card({ link, picture }) {
           Click link to see Github repo
         </a>
       </div>
-    </div>
+    </Card>
   );
 }
