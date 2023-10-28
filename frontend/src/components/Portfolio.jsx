@@ -6,9 +6,9 @@ import Menu from './Menu';
 
 export default function Portfolio() {
   return (
-    <div id="main">
+    <div>
 
-      <div className="menu-sidebar">
+      <div className="menu-sidebar-p">
         <Menu />
 
       </div>
