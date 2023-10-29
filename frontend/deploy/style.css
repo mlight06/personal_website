@@ -154,6 +154,11 @@
   /* justify-content: flex-start; */
   align-items: center;
 }
+.icons {
+  /* display: flex;
+  justify-content: space-between; */
+  margin: 5rem 0 0 13rem;
+}
 
 
 

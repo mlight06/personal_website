@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Paper } from '@mui/material';
 import { Link } from 'react-router-dom';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 
 export default function Heading() {
   return (
@@ -110,8 +111,14 @@ export default function Heading() {
         </motion.div>
       </div>
       <div className="icons">
-        <LinkedInIcon color="primary" sx={{ fontSize: 60 }} />
+        <Link to="https://www.linkedin.com/in/michaelklight">
 
+          <LinkedInIcon color="primary" sx={{ fontSize: 60 }} />
+        </Link>
+        {/* <Link> */}
+        <EmailIcon sx={{ color: 'white', fontSize: 60 }} />
+
+        {/* </Link> */}
       </div>
     </div>
   );
