@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Paper } from '@mui/material';
 import { Link } from 'react-router-dom';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Heading() {
   return (
@@ -16,7 +17,7 @@ export default function Heading() {
             x: { duration: 1 },
           }}
         >
-          Welcome
+          Welcome!
         </motion.div>
       </div>
       <div>
@@ -107,6 +108,10 @@ export default function Heading() {
             </Link>
           </Paper>
         </motion.div>
+      </div>
+      <div className="icons">
+        <LinkedInIcon color="primary" sx={{ fontSize: 60 }} />
+
       </div>
     </div>
   );
