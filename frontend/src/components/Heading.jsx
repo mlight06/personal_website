@@ -4,6 +4,7 @@ import { Paper } from '@mui/material';
 import { Link } from 'react-router-dom';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Heading() {
   return (
@@ -115,10 +116,11 @@ export default function Heading() {
 
           <LinkedInIcon color="primary" sx={{ fontSize: 60 }} />
         </Link>
-        {/* <Link> */}
         <EmailIcon sx={{ color: 'white', fontSize: 60 }} />
+        <Link to="https://www.github.com/mlight06">
 
-        {/* </Link> */}
+          <GitHubIcon sx={{ color: 'grey', fontSize: 60 }} />
+        </Link>
       </div>
     </div>
   );

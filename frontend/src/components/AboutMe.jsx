@@ -33,9 +33,6 @@ export default function AboutMe() {
           </Paper>
         </div>
       </div>
-      <Button href="/">
-        Back to Home
-      </Button>
     </div>
   );
 }
