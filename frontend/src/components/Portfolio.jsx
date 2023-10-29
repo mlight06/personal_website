@@ -16,7 +16,7 @@ export default function Portfolio() {
       </div>
       <div className="resume-block">
 
-        <div className="portfolio-header">
+        <div className="page-header">
 
           Portfolio
         </div>

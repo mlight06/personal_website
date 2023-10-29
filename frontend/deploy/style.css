@@ -39,6 +39,7 @@
   /* width: 100vw; */
   /* height: 100%;
   width: auto; */
+  height: inherit;
 }
 #heading_main {
   display: flex;
@@ -77,17 +78,7 @@
   margin-bottom: 8rem;
 
 }
-/* .hobbies-pic {
-  height: 500px;
-  width: 700px;
-}
-.hobbies-pic-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2rem;
-} */
+
 .menu-container {
   display: flex;
   flex-direction: column;
@@ -119,7 +110,7 @@
   /* margin: 3rem 1rem 3rem 3rem; */
 }
 
-.portfolio-header {
+.page-header {
   display: flex;
   justify-content: center;
   /* border: 5px dotted blue; */
@@ -128,9 +119,10 @@
   border-image: linear-gradient(45deg, #BBDE2D, green)1;
   font-family: 'Monoton', sans-serif;  font-size: 72px;
   color:white;
-  /* width: 90%; */
+  width: 90%;
   padding: 2rem 0;
   margin: 3rem 1rem 3rem 1rem;
+  /* width: 50%; */
   /* margin-top: 3rem; */
 }
 .menu-sidebar-p {
@@ -139,6 +131,25 @@
   border-right-width: 10px;
   border-image: linear-gradient(45deg, #98C327, #ED6E36, #7C0B95)1; */
   height: 100vh;
+}
+
+.about_me_information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 30%; */
+}
+
+.about-me-paper {
+  width: 60%;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+}
+#heading-aboutme {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
 }
 
 
