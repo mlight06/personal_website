@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from '@mui/material';
 import resume from '../images/Resume2023.pdf';
 import Menu from './Menu';
-import Tile from './Card';
+import Tile from './Tile';
 import repos from '../constants/repos';
 
 export default function Portfolio() {
@@ -23,16 +23,10 @@ export default function Portfolio() {
         <div className="resume">
           <embed src={resume} title="resume" width="80%" height="80%" />
         </div>
-      </div>
-      <div>
-        {repos.map((repo) => <Tile link={repo.link} picture={repo.picture} />)}
-        {/* {repos.map((repo) => console.log('repo', repo.link))} */}
-      </div>
-      <div>
-
-        <Button href="/">
-          Back to Home
-        </Button>
+        <div className="tile-container">
+          {repos.map((repo) => <Tile link={repo.link} picture={repo.picture} className="portfolio-tile" />)}
+          {/* {repos.map((repo) => console.log('repo', repo.link))} */}
+        </div>
       </div>
     </div>
   );

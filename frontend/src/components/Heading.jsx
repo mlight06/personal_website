@@ -36,15 +36,15 @@ export default function Heading() {
             x: { duration: 1 },
           }}
         >
-          <Paper
+          {/* <Paper
             variant="outlined"
             className="introduction"
             elevation={0}
-          >
-            <div>
-              {'I\'m Michael Light'}
-            </div>
-          </Paper>
+          > */}
+          <div className="introduction">
+            {'I\'m Michael Light'}
+          </div>
+          {/* </Paper> */}
         </motion.div>
         <motion.div
           // animate={{
@@ -58,15 +58,15 @@ export default function Heading() {
             x: { duration: 1 },
           }}
         >
-          <Paper
-            variant="outlined"
+          {/* <Paper */}
+          {/* variant="outlined"
             elevation={0}
             className="introduction"
-          >
-            <div>
-              {'and I\'m a fullstack software developer'}
-            </div>
-          </Paper>
+          > */}
+          <div className="introduction">
+            {'and I\'m a fullstack software developer'}
+          </div>
+          {/* </Paper> */}
         </motion.div>
         <motion.div
           // animate={{
@@ -80,11 +80,14 @@ export default function Heading() {
             x: { duration: 1 },
           }}
         >
-          <Paper
+          {/* <Paper
             className="introduction"
-          >
+          > */}
+          <div className="introduction">
+
             Thanks for checking out my website.
-          </Paper>
+          </div>
+          {/* </Paper> */}
         </motion.div>
         <motion.div
           // animate={{
@@ -98,17 +101,19 @@ export default function Heading() {
             x: { duration: 1 },
           }}
         >
-          <Paper
+          {/* <Paper
             variant="outlined"
             elevation={0}
             className="introduction"
-          >
+          > */}
+          <div className="introduction">
 
             <Link to="/aboutme">
 
               Click here to see more
             </Link>
-          </Paper>
+          </div>
+          {/* </Paper> */}
         </motion.div>
       </div>
       <div className="icons">

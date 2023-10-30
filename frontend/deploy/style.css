@@ -46,7 +46,8 @@
   flex-direction: column;
   /* justify-content: flex-start; */
   align-items: flex-start;
-  margin-left: 30%;
+  /* margin-left: 30%; */
+  align-items: center;
 }
 #welcome {
   color: white;
@@ -59,8 +60,10 @@
   display: flex;
   justify-content: center;
   padding: 0 20px 0 20px;
-  font-size:xx-large;
+  font-size:48px;
+  color: greenyellow;
   margin: 1rem 0 1rem 0;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 .profile-pic {
   height: 500px;
@@ -97,7 +100,7 @@
 .resume {
   display: flex;
   justify-content: center;
-  height: 140vh;
+  height: 120vh;
   width: 80vw;
   /* margin: 0 1rem 3rem 6rem; */
 }
@@ -158,6 +161,22 @@
   display: flex;
   justify-content: space-between;
   margin: 5rem 0 0 11rem;
+}
+.portfolio-tile {
+  width: 10rem;
+  background-color: red;
+}
+.tile-container {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: space-between;
+  max-width: 80%;
+  margin-bottom: -7rem;
+}
+.tile-image {
+  width: 5rem;
+  height: 5rem;
 }
 
 
