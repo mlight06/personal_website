@@ -67,7 +67,8 @@
 }
 
 .menu-button {
-  padding: 2px;
+  padding: 0 0 1rem 1.5rem;
+
 }
 .menu-button :hover{
   border-style: solid;
