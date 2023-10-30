@@ -172,11 +172,21 @@
   /* align-items: center; */
   justify-content: space-between;
   max-width: 80%;
-  margin-bottom: -7rem;
 }
-.tile-image {
-  width: 5rem;
-  height: 5rem;
+
+.tile {
+  margin: 0 2rem 3rem 2rem;
+}
+
+.tile :hover {
+  border: 3px solid greenyellow;
+}
+
+.project-title {
+  font-size: 48px;
+  color: white;
+  font-family: 'Courgette', cursive;
+  margin-bottom: 2rem;
 }
 
 

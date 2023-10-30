@@ -23,6 +23,9 @@ export default function Portfolio() {
         <div className="resume">
           <embed src={resume} title="resume" width="80%" height="80%" />
         </div>
+        <div className="project-title">
+          Projects
+        </div>
         <div className="tile-container">
           {repos.map((repo) => <Tile link={repo.link} picture={repo.picture} className="portfolio-tile" />)}
           {/* {repos.map((repo) => console.log('repo', repo.link))} */}

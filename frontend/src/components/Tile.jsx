@@ -5,7 +5,7 @@ import { Card, CardMedia, Link } from '@mui/material';
 export default function Tile({ link, picture }) {
   return (
     <Link href={link}>
-      <Card sx={{ maxWidth: 300 }}>
+      <Card sx={{ width: 300 }} className="tile">
         <CardMedia
           component="img"
           sx={{ height: 140 }}
