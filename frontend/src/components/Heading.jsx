@@ -11,12 +11,12 @@ export default function Heading() {
     <div id="heading_main">
       <div id="welcome">
         <motion.div
-          animate={{ x: -100 }}
+          animate={{ y: 60 }}
           // transition={{ type: 'spring', stiffness: 100, delay: 1 }}
           transition={{
-            ease: 'linear',
+            ease: 'easeOut',
             duration: 2,
-            x: { duration: 1 },
+            // x: { duration: 1 },
           }}
         >
           Welcome!
@@ -25,83 +25,46 @@ export default function Heading() {
       <div>
 
         <motion.div
-          // animate={{
-          //   x: ['0rem', '10rem', '-10rem', '0rem'],
-          //   y: ['0px', '20px', '0px'],
-          // }}
-          animate={{ x: -80 }}
+          animate={{ y: -50 }}
           transition={{
-            ease: 'linear',
+            ease: 'easeOut',
             duration: 2,
-            x: { duration: 1 },
           }}
         >
-          {/* <Paper
-            variant="outlined"
-            className="introduction"
-            elevation={0}
-          > */}
           <div className="introduction">
             {'I\'m Michael Light'}
           </div>
-          {/* </Paper> */}
         </motion.div>
         <motion.div
-          animate={{ x: -50 }}
+          animate={{ y: -50 }}
           transition={{
-            ease: 'linear',
+            ease: 'easeOut',
             duration: 2,
-            x: { duration: 1 },
           }}
         >
-          {/* <Paper */}
-          {/* variant="outlined"
-            elevation={0}
-            className="introduction"
-          > */}
           <div className="introduction">
             {'and I\'m a fullstack software developer'}
           </div>
-          {/* </Paper> */}
         </motion.div>
         <motion.div
-          // animate={{
-          //   x: ['0rem', '10rem', '-10rem', '0rem'],
-          //   y: ['0px', '20px', '0px'],
-          // }}
-          animate={{ x: -50 }}
+          animate={{ y: -50 }}
           transition={{
-            ease: 'linear',
+            ease: 'easeOut',
             duration: 2,
-            x: { duration: 1 },
           }}
         >
-          {/* <Paper
-            className="introduction"
-          > */}
           <div className="introduction">
-
             Thanks for checking out my website.
           </div>
-          {/* </Paper> */}
+
         </motion.div>
         <motion.div
-          // animate={{
-          //   x: ['0rem', '-10rem', '10rem', '0rem'],
-          //   y: ['0px', '20px', '0px'],
-          // }}
-          animate={{ x: -50 }}
+          animate={{ y: -50 }}
           transition={{
-            ease: 'linear',
+            ease: 'easeOut',
             duration: 2,
-            x: { duration: 1 },
           }}
         >
-          {/* <Paper
-            variant="outlined"
-            elevation={0}
-            className="introduction"
-          > */}
           <div className="introduction">
 
             <Link to="/aboutme">
@@ -109,15 +72,13 @@ export default function Heading() {
               Click here to see more
             </Link>
           </div>
-          {/* </Paper> */}
         </motion.div>
       </div>
       <motion.div
-        animate={{ x: -90 }}
+        animate={{ y: -90 }}
         transition={{
-          ease: 'linear',
+          ease: 'easeOut',
           duration: 2,
-          x: { duration: 1 },
         }}
       >
         <div className="icons">
