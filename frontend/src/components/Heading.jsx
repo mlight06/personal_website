@@ -11,7 +11,7 @@ export default function Heading() {
     <div id="heading_main">
       <div id="welcome">
         <motion.div
-          animate={{ y: 60 }}
+          animate={{ y: [-100, 20, 0], x: [60, -20, 0] }}
           // transition={{ type: 'spring', stiffness: 100, delay: 1 }}
           transition={{
             ease: 'easeOut',
@@ -25,7 +25,7 @@ export default function Heading() {
       <div>
 
         <motion.div
-          animate={{ y: -50 }}
+          animate={{ y: [-50, 50, 0], x: [40, -20, 0] }}
           transition={{
             ease: 'easeOut',
             duration: 2,
@@ -36,7 +36,7 @@ export default function Heading() {
           </div>
         </motion.div>
         <motion.div
-          animate={{ y: -50 }}
+          animate={{ y: [40, -30, 0], x: [-40, 40, 0] }}
           transition={{
             ease: 'easeOut',
             duration: 2,
@@ -47,7 +47,7 @@ export default function Heading() {
           </div>
         </motion.div>
         <motion.div
-          animate={{ y: -50 }}
+          animate={{ y: [-90, 25, 0], x: [20, -70, 0] }}
           transition={{
             ease: 'easeOut',
             duration: 2,
@@ -59,7 +59,7 @@ export default function Heading() {
 
         </motion.div>
         <motion.div
-          animate={{ y: -50 }}
+          animate={{ y: [80, -20, 0], x: [-40, 35, 0] }}
           transition={{
             ease: 'easeOut',
             duration: 2,
@@ -75,7 +75,7 @@ export default function Heading() {
         </motion.div>
       </div>
       <motion.div
-        animate={{ y: -90 }}
+        animate={{ y: [-100, 100, 0], x: [20, 40, 0] }}
         transition={{
           ease: 'easeOut',
           duration: 2,
