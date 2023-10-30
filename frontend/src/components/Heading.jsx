@@ -11,7 +11,7 @@ export default function Heading() {
     <div id="heading_main">
       <div id="welcome">
         <motion.div
-          animate={{ x: 100 }}
+          animate={{ x: -100 }}
           // transition={{ type: 'spring', stiffness: 100, delay: 1 }}
           transition={{
             ease: 'linear',
@@ -29,7 +29,7 @@ export default function Heading() {
           //   x: ['0rem', '10rem', '-10rem', '0rem'],
           //   y: ['0px', '20px', '0px'],
           // }}
-          animate={{ x: -50 }}
+          animate={{ x: -80 }}
           transition={{
             ease: 'linear',
             duration: 2,
@@ -47,11 +47,7 @@ export default function Heading() {
           {/* </Paper> */}
         </motion.div>
         <motion.div
-          // animate={{
-          //   x: ['0rem', '-10rem', '10rem', '0rem'],
-          //   y: ['0px', '20px', '0px'],
-          // }}
-          animate={{ x: 50 }}
+          animate={{ x: -50 }}
           transition={{
             ease: 'linear',
             duration: 2,
@@ -94,7 +90,7 @@ export default function Heading() {
           //   x: ['0rem', '-10rem', '10rem', '0rem'],
           //   y: ['0px', '20px', '0px'],
           // }}
-          animate={{ x: 50 }}
+          animate={{ x: -50 }}
           transition={{
             ease: 'linear',
             duration: 2,
@@ -116,17 +112,29 @@ export default function Heading() {
           {/* </Paper> */}
         </motion.div>
       </div>
-      <div className="icons">
-        <Link to="https://www.linkedin.com/in/michaelklight">
+      <motion.div
+        animate={{ x: -90 }}
+        transition={{
+          ease: 'linear',
+          duration: 2,
+          x: { duration: 1 },
+        }}
+      >
+        <div className="icons">
+          <Link to="https://www.linkedin.com/in/michaelklight">
 
-          <LinkedInIcon color="primary" sx={{ fontSize: 60 }} />
-        </Link>
-        <EmailIcon sx={{ color: 'white', fontSize: 60 }} />
-        <Link to="https://www.github.com/mlight06">
+            <LinkedInIcon color="primary" sx={{ fontSize: 60 }} />
+          </Link>
+          <Link to="mailto:mklight06@gmail.com">
 
-          <GitHubIcon sx={{ color: 'grey', fontSize: 60 }} />
-        </Link>
-      </div>
+            <EmailIcon sx={{ color: 'white', fontSize: 60 }} />
+          </Link>
+          <Link to="https://www.github.com/mlight06">
+
+            <GitHubIcon sx={{ color: 'grey', fontSize: 60 }} />
+          </Link>
+        </div>
+      </motion.div>
     </div>
   );
 }

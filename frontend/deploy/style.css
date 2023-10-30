@@ -50,7 +50,7 @@
   align-items: center;
 }
 #welcome {
-  color: white;
+  color:aquamarine;
   font-size: 72px;
   font-family: 'Courgette', cursive;
 
@@ -64,6 +64,16 @@
   color: greenyellow;
   margin: 1rem 0 1rem 0;
   font-family: 'Allerta Stencil', sans-serif;
+}
+
+.menu-button {
+  padding: 2px;
+}
+.menu-button :hover{
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(45deg, #98C327, #ED6E36, #7C0B95)1;
+  padding: 1px;
 }
 .profile-pic {
   height: 500px;
@@ -95,6 +105,7 @@
 }
 .menu-text {
   position: fixed;
+
 }
 
 .resume {
@@ -167,7 +178,7 @@
 .icons {
   display: flex;
   justify-content: space-between;
-  margin: 5rem 0 0 11rem;
+  margin: 5rem 0;
 }
 .portfolio-tile {
   width: 10rem;
@@ -186,7 +197,11 @@
 }
 
 .tile :hover {
-  border: 3px solid greenyellow;
+  /* border: 3px solid greenyellow; */
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(45deg, #98C327, #ED6E36, #7C0B95)1;
+  padding: 1px;
 }
 
 .project-title {
@@ -195,6 +210,16 @@
   font-family: 'Courgette', cursive;
   margin-bottom: 2rem;
 }
+a, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+ a:hover {
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(45deg, #98C327, #ED6E36, #7C0B95)1;
+  padding: 1px;
+ }
 
 
 

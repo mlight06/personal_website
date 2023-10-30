@@ -10,7 +10,7 @@ export default function Menu() {
   const theme = createTheme({
     typography: {
       h5: {
-        color: '#589BF5',
+        color: 'white',
       },
     },
   });
@@ -28,34 +28,42 @@ export default function Menu() {
               </div>
             </ListItem>
             <ListItem>
+
               <Button variant="text">
-                <Link to="/">
-                  <Typography variant="h5">
-                    Homepage
-                  </Typography>
-                </Link>
+                <div className="menu-button">
+                  <Link to="/">
+                    <Typography variant="h5">
+                      Homepage
+                    </Typography>
+                  </Link>
+                </div>
               </Button>
             </ListItem>
             <Divider />
             <ListItem>
 
               <Button variant="text">
-                <Link to="/portfolio">
-                  <Typography variant="h5">
-                    Portfolio
-                  </Typography>
-                </Link>
+                <div className="menu-button">
+                  <Link to="/portfolio">
+                    <Typography variant="h5">
+                      Portfolio
+                    </Typography>
+                  </Link>
+                </div>
               </Button>
+
             </ListItem>
             <Divider />
             <ListItem>
-              <Button variant="text">
-                <Link to="/aboutme">
-                  <Typography variant="h5">
-                    About Me
-                  </Typography>
+              <Button variant="text" sx={{ padding: 2 }}>
+                <div className="menu-button">
+                  <Link to="/aboutme">
+                    <Typography variant="h5">
+                      About Me
+                    </Typography>
 
-                </Link>
+                  </Link>
+                </div>
               </Button>
             </ListItem>
           </List>
