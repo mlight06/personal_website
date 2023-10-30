@@ -9,7 +9,7 @@ export default function Tile({ link, picture, description }) {
     <div>
 
       <Link href={link} rel="noopener noreferrer" target="_blank">
-        <Card sx={{ width: 300 }} className="tile">
+        <Card sx={{ maxWidth: 300 }} className="tile">
           <CardMedia
             component="img"
             sx={{ height: 140 }}
