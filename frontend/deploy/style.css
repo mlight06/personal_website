@@ -50,7 +50,7 @@
   align-items: center;
 }
 #welcome {
-  color:aquamarine;
+  color:#C3DFE8;
   font-size: 72px;
   font-family: 'Courgette', cursive;
 
@@ -61,7 +61,7 @@
   justify-content: center;
   padding: 0 20px 0 20px;
   font-size:48px;
-  color: greenyellow;
+  color:#C3DFE8;
   margin: 1rem 0 1rem 0;
   font-family: 'Allerta Stencil', sans-serif;
 }
@@ -137,7 +137,7 @@
   border-width: 5px;
   border-image: linear-gradient(45deg, #BBDE2D, green)1;
   font-family: 'Monoton', sans-serif;  font-size: 72px;
-  color:white;
+  color:#C3DFE8;
   width: 90%;
   padding: 2rem 0;
   margin: 3rem 1rem 3rem 1rem;
@@ -168,7 +168,7 @@
 .about-me-typography {
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 24px;
-  color:#E7E7D5
+  color:#C3DFE8
 }
 #heading-aboutme {
   display: flex;
@@ -204,7 +204,7 @@
 
 .project-title {
   font-size: 48px;
-  color: white;
+  color: #C3DFE8;
   font-family: 'Courgette', cursive;
   margin-bottom: 2rem;
 }

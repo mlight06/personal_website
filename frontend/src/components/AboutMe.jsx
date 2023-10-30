@@ -31,7 +31,7 @@ export default function AboutMe() {
             <Paper elevation={3} className="about-me-paper" sx={{ background: 'linear-gradient(red, orange)', width: '50rem' }}>
               <div className="about-me-typography">
 
-                Hello! My name is Michael and I have lived in beatiful Colorado for all my life.
+                Hello! My name is Michael and I have lived in beautiful Colorado for all my life.
               </div>
             </Paper>
           </motion.div>
@@ -39,14 +39,14 @@ export default function AboutMe() {
             animate={{ rotate: 360 }}
             transition={{ type: 'spring', delay: 1 }}
           >
-            <Paper elevation={3} className="about-me-paper" sx={{ background: 'linear-gradient(#B5CB15, green)', width: '50rem' }}>
+            <Paper elevation={3} className="about-me-paper" sx={{ background: 'linear-gradient(#CBCB04, #287A0A)', width: '50rem' }}>
               <div className="about-me-typography">
 
                 After 10 years in the healthcare industry I made a pivot into software, and couldn't
                 be happier!
-                What I enjoy most about software is the problem-solving aspect.
-                I pride myself on critical thinking and figuring out solutions to problems that need
-                solving.
+                What I enjoy most about development is the problem-solving aspect.
+                I pride myself on critical thinking and figuring out the most efficient
+                and optimal way to solve a tough problem.
               </div>
             </Paper>
           </motion.div>
@@ -57,9 +57,9 @@ export default function AboutMe() {
             <Paper elevation={3} className="about-me-paper" sx={{ background: 'linear-gradient(blue, purple)', width: '50rem' }}>
               <div className="about-me-typography">
                 I love to travel, and being a software developer has given me the ability
-                to explore more, for which I am very grateful. This summer, I also started
-                playing golf, which has been great!
-                Always happy to connect, so feel free to reach out
+                to explore more, for which I am very grateful. This summer I started
+                playing golf, which has been a ton of fun!
+                Always happy to connect, so feel free to reach out.
               </div>
             </Paper>
           </motion.div>

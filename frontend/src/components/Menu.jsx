@@ -10,7 +10,7 @@ export default function Menu() {
   const theme = createTheme({
     typography: {
       h5: {
-        color: 'white',
+        color: '#C3DFE8',
       },
     },
   });
@@ -41,7 +41,6 @@ export default function Menu() {
             </ListItem>
             <Divider />
             <ListItem>
-
               <Button variant="text">
                 <div className="menu-button">
                   <Link to="/portfolio">
