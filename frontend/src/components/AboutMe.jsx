@@ -12,8 +12,16 @@ export default function AboutMe() {
       </div>
       <div id="heading-aboutme">
         <div className="page-header">
-
-          About Me
+          <motion.div
+            animate={{ x: [10, -30, 0], y: [-40, 10, 0] }}
+            transition={{
+              type: 'linear',
+              duration: 2,
+              x: { duration: 1 },
+            }}
+          >
+            About Me
+          </motion.div>
         </div>
         <div className="about_me_information">
           <motion.div
