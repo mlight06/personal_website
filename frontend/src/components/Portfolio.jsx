@@ -37,7 +37,7 @@ export default function Portfolio() {
           Projects
         </div>
         <div className="tile-container">
-          {repos.map((repo) => <Tile link={repo.link} picture={repo.picture} className="portfolio-tile" />)}
+          {repos.map((repo) => <Tile link={repo.link} picture={repo.picture} description={repo.description} className="portfolio-tile" />)}
           {/* {repos.map((repo) => console.log('repo', repo.link))} */}
         </div>
       </div>

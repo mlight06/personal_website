@@ -82,7 +82,7 @@ export default function Heading() {
         }}
       >
         <div className="icons">
-          <Link to="https://www.linkedin.com/in/michaelklight">
+          <Link to="https://www.linkedin.com/in/michaelklight" rel="noopener noreferrer" target="_blank">
 
             <LinkedInIcon color="primary" sx={{ fontSize: 60 }} />
           </Link>
@@ -90,7 +90,7 @@ export default function Heading() {
 
             <EmailIcon sx={{ color: 'white', fontSize: 60 }} />
           </Link>
-          <Link to="https://www.github.com/mlight06">
+          <Link to="https://www.github.com/mlight06" rel="noopener noreferrer" target="_blank">
 
             <GitHubIcon sx={{ color: 'grey', fontSize: 60 }} />
           </Link>
