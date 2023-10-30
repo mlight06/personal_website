@@ -4,7 +4,7 @@ import { Card, CardMedia, Link } from '@mui/material';
 // eslint-disable-next-line react/prop-types
 export default function Tile({ link, picture }) {
   return (
-    <Link href={link}>
+    <Link href={link} rel="noopener noreferrer" target="_blank">
       <Card sx={{ width: 300 }} className="tile">
         <CardMedia
           component="img"
