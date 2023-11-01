@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {
   Button, List, Divider, ListItem, createTheme, Typography, ThemeProvider, Avatar,
 } from '@mui/material';
+import { motion } from 'framer-motion';
 import photo from '../images/profile.png';
 // import Hobbies from './Hobbies';
 
@@ -28,42 +29,56 @@ export default function Menu() {
               </div>
             </ListItem>
             <ListItem>
+              <motion.div
+                whileHover={{ scale: 1.4 }}
+              >
 
-              <Button variant="text">
-                <div className="menu-button">
-                  <Link to="/">
-                    <Typography variant="h5">
-                      Homepage
-                    </Typography>
-                  </Link>
-                </div>
-              </Button>
+                <Button variant="text">
+                  <div className="menu-button">
+                    <Link to="/">
+                      <Typography variant="h5">
+                        Homepage
+                      </Typography>
+                    </Link>
+                  </div>
+                </Button>
+              </motion.div>
             </ListItem>
             <Divider />
             <ListItem>
-              <Button variant="text">
-                <div className="menu-button">
-                  <Link to="/portfolio">
-                    <Typography variant="h5">
-                      Portfolio
-                    </Typography>
-                  </Link>
-                </div>
-              </Button>
+              <motion.div
+                whileHover={{ scale: 1.4 }}
+              >
+
+                <Button variant="text">
+                  <div className="menu-button">
+                    <Link to="/portfolio">
+                      <Typography variant="h5">
+                        Portfolio
+                      </Typography>
+                    </Link>
+                  </div>
+                </Button>
+              </motion.div>
 
             </ListItem>
             <Divider />
             <ListItem>
-              <Button variant="text" sx={{ padding: 2 }}>
-                <div className="menu-button">
-                  <Link to="/aboutme">
-                    <Typography variant="h5">
-                      About Me
-                    </Typography>
+              <motion.div
+                whileHover={{ scale: 1.4 }}
+              >
 
-                  </Link>
-                </div>
-              </Button>
+                <Button variant="text" sx={{ padding: 2 }}>
+                  <div className="menu-button">
+                    <Link to="/aboutme">
+                      <Typography variant="h5">
+                        About Me
+                      </Typography>
+
+                    </Link>
+                  </div>
+                </Button>
+              </motion.div>
             </ListItem>
           </List>
         </div>

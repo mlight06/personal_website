@@ -82,18 +82,31 @@ export default function Heading() {
         }}
       >
         <div className="icons">
-          <Link to="https://www.linkedin.com/in/michaelklight" rel="noopener noreferrer" target="_blank">
+          <motion.div
+            whileHover={{ scale: 1.4 }}
+          >
 
-            <LinkedInIcon color="primary" sx={{ fontSize: 60 }} />
-          </Link>
-          <Link to="mailto:mklight06@gmail.com">
+            <Link to="https://www.linkedin.com/in/michaelklight" rel="noopener noreferrer" target="_blank">
 
-            <EmailIcon sx={{ color: 'white', fontSize: 60 }} />
-          </Link>
-          <Link to="https://www.github.com/mlight06" rel="noopener noreferrer" target="_blank">
+              <LinkedInIcon color="primary" sx={{ fontSize: 60 }} />
+            </Link>
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.4 }}
+          >
+            <Link to="mailto:mklight06@gmail.com">
 
-            <GitHubIcon sx={{ color: 'grey', fontSize: 60 }} />
-          </Link>
+              <EmailIcon sx={{ color: 'white', fontSize: 60 }} />
+            </Link>
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.4 }}
+          >
+            <Link to="https://www.github.com/mlight06" rel="noopener noreferrer" target="_blank">
+
+              <GitHubIcon sx={{ color: 'grey', fontSize: 60 }} />
+            </Link>
+          </motion.div>
         </div>
       </motion.div>
     </div>
