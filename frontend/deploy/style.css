@@ -102,7 +102,7 @@
   align-items: center;
   width: 270px;
   height: 100%;
-
+  margin-top: 2rem;
 }
 .menu-text {
   position: fixed;
