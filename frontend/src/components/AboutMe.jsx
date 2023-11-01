@@ -25,8 +25,11 @@ export default function AboutMe() {
         </div>
         <div className="about_me_information">
           <motion.div
-            animate={{ rotate: -360 }}
-            transition={{ type: 'spring' }}
+            // animate={{ rotate: -360 }}
+            // transition={{ type: 'spring' }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2 }}
           >
             <Paper elevation={3} className="about-me-paper" sx={{ background: 'linear-gradient(red, orange)', width: '50rem' }}>
               <div className="about-me-typography">
@@ -36,8 +39,9 @@ export default function AboutMe() {
             </Paper>
           </motion.div>
           <motion.div
-            animate={{ rotate: 360 }}
-            transition={{ type: 'spring', delay: 1 }}
+            initial={{ opacity: 0, y: 60 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2, delay: 1 }}
           >
             <Paper elevation={3} className="about-me-paper" sx={{ background: 'linear-gradient(#CBCB04, #287A0A)', width: '50rem' }}>
               <div className="about-me-typography">
@@ -51,8 +55,9 @@ export default function AboutMe() {
             </Paper>
           </motion.div>
           <motion.div
-            animate={{ rotate: -360 }}
-            transition={{ type: 'spring', delay: 2 }}
+            initial={{ opacity: 0, y: 90 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2, delay: 2 }}
           >
             <Paper elevation={3} className="about-me-paper" sx={{ background: 'linear-gradient(blue, purple)', width: '50rem' }}>
               <div className="about-me-typography">
