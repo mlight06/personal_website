@@ -27,7 +27,7 @@ export default function AboutMe() {
           <motion.div
             // animate={{ rotate: -360 }}
             // transition={{ type: 'spring' }}
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 2 }}
           >
@@ -39,7 +39,7 @@ export default function AboutMe() {
             </Paper>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 60 }}
+            initial={{ opacity: 0, y: -60 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 2, delay: 1 }}
           >
@@ -55,7 +55,7 @@ export default function AboutMe() {
             </Paper>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 90 }}
+            initial={{ opacity: 0, y: -90 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 2, delay: 2 }}
           >
