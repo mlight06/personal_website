@@ -66,11 +66,14 @@ export default function Heading() {
           }}
         >
           <div className="introduction">
+            <motion.div
+              whileHover={{ scale: 0.8 }}
+            >
 
-            <Link to="/aboutme">
-
-              Click here to see more
-            </Link>
+              <Link to="/aboutme">
+                Click here to see more
+              </Link>
+            </motion.div>
           </div>
         </motion.div>
       </div>
