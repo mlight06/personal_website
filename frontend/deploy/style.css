@@ -125,6 +125,8 @@
   border-left-style: solid;
   border-left-width: 10px;
   border-image: linear-gradient(#137D26,  #F1ED52)1;
+  /* width: 100%; */
+  top: 100%;
   /* justify-content: center; */
   /* margin: 3rem 1rem 3rem 3rem; */
 }
@@ -190,6 +192,7 @@
 }
 .tile-container {
   display: flex;
+  justify-content: center;
   width: 90%;
 }
 
