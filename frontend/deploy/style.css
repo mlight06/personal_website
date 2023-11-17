@@ -51,7 +51,8 @@
   border-left-style: solid;
   border-left-width: 10px;
   border-image: linear-gradient(#7C0B95, #ED6E36)1;
-  top: 100%;
+  /* top: 100%; */
+  height: 100dvh;
 
 }
 #welcome {
@@ -182,7 +183,8 @@
   border-left-style: solid;
   border-left-width: 10px;
   border-image: linear-gradient(#1C56C2, #7C0B95)1;
-  top: 100%;
+  /* top: 100%; */
+  height: 100dvh;
 
 }
 .icons {
