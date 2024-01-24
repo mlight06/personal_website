@@ -2,7 +2,7 @@ import React from 'react';
 // import { Document, Page, pdfjs } from 'react-pdf';
 import { motion } from 'framer-motion';
 import { Button } from '@mui/material';
-import resume from '../images/NewResume2023.pdf';
+import resume from '../images/Resume2024.pdf';
 import Menu from './Menu';
 import Tile from './Tile';
 import repos from '../constants/repos';
