@@ -22,6 +22,12 @@
   html {
     height: 100%;
   }
+
+  .avatar {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+  }
   /* body { */
     /* background-image: url(/newbackground.png); */
     /* background-image: url(/lines.png);
@@ -58,7 +64,7 @@
   /* height: 100dvh; */
 
 }
-#welcome {
+/* #welcome {
   color:#C3DFE8;
   font-size: 72px;
   font-family: 'Courgette', cursive;
@@ -78,7 +84,7 @@
 .menu-button {
   padding: 0 0 1rem 1.5rem;
 
-}
+} */
 /* .menu-button :hover{
   border-style: solid;
   border-width: 4px;
@@ -190,7 +196,7 @@
   /* height: 100dvh; */
 
 }
-.icons {
+/* .icons {
   display: flex;
   justify-content: space-between;
   margin: 5rem 0;
@@ -207,7 +213,7 @@
 
 .tile {
   margin: 0 2rem 3rem 2rem;
-}
+} */
 
 /* .tile :hover {
 
