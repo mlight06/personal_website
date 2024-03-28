@@ -22,12 +22,12 @@
   html {
     height: 100%;
   }
-  body {
+  /* body { */
     /* background-image: url(/newbackground.png); */
-    background-image: url(/lines.png);
+    /* background-image: url(/lines.png);
     background-size: cover;
     height: 100%;
-  }
+  } */
 
 #main {
   /* background-image: linear-gradient(blue, green, pink); */
