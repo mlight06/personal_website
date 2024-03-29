@@ -28,6 +28,7 @@ export default function Navigation() {
               />
             </a>
           </div>
+          {/* Mobile hamburger menu */}
           <div className="flex lg:hidden">
             <button
               type="button"
@@ -38,7 +39,7 @@ export default function Navigation() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12">
+          <div className="hidden lg:flex lg:gap-x-12" >
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
                 {item.name}
@@ -51,7 +52,7 @@ export default function Navigation() {
             </a> */}
           </div>
         </nav>
-        {/* <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+        <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
@@ -96,7 +97,7 @@ export default function Navigation() {
               </div>
             </div>
           </Dialog.Panel>
-        </Dialog> */}
+        </Dialog>
       </header>
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
@@ -138,7 +139,12 @@ export default function Navigation() {
               Michael Light
             </h1>
             <p className="mt-6 text-lg leading-8 text-purple-700">
-              Experienced software engineer, manager and optimist
+              I'm a software engineer currently based in Colorado. I have experience building out fullstack
+              applications from inception to completion in production level environments. I leverage my
+              experience working in small teams to be versed in backend, frontend, and devops work.
+            </p>
+            <p className="mt-6 text-xl leading-8 text-purple-900">
+              Scroll to find out more about me!
             </p>
           </div>
           </motion.div>
