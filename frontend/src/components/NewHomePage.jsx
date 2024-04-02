@@ -12,10 +12,6 @@ const navigation = [
 
 ]
 
-function handleScroll(x, y) {
-  return scrollTo(x,y)
-}
-
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 

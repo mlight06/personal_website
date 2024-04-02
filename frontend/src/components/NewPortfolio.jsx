@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Grid, Card, CardContent, Typography } from "@mui/material";
+import Tile from "./Tile";
+import repos from "../constants/repos";
 
 export default function NewPortfolio() {
   const portfolio = [{
@@ -27,6 +29,11 @@ export default function NewPortfolio() {
             Portfolio
           </Typography>
         </Card>
+        <Card sx={{boxShadow: "none", margin: "2rem"}}>
+          <Typography variant="h3">
+            Professional Experience
+          </Typography>
+        </Card>
       {portfolio.map((section,index) => {
         return (
             <Card sx={{maxWidth: 900, margin: "1rem"}} key={index}>
@@ -44,6 +51,17 @@ export default function NewPortfolio() {
         )
         })
         }
+         <Card sx={{boxShadow: "none", margin: "2rem"}}>
+          <Typography variant="h3">
+            Projects
+          </Typography>
+        </Card>
+
+        <div className="tile-container">
+          {repos.map((repo) => <Tile link={repo.link} picture={repo.picture} description={repo.description} title={repo.title} className="portfolio-tile" />)}
+          {/* {repos.map((repo) => console.log('repo', repo.link))} */}
+        </div>
+
        </Container>
   )
 }
