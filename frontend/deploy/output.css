@@ -963,11 +963,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-2\.5 {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-}
-
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -1180,10 +1175,6 @@ html {
   justify-content: center;
 }
 
-.new-portfolio {
-  margin: 2rem;
-}
-
 /* body { */
 
 /* background-image: url(/newbackground.png); */
@@ -1363,6 +1354,23 @@ html {
   /* height: 100dvh; */
 }
 
+.tile-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
+
 /* .icons {
   display: flex;
   justify-content: space-between;
@@ -1460,26 +1468,6 @@ a, a:visited, a:active {
 
   .sm\:justify-center {
     justify-content: center;
-  }
-
-  .sm\:gap-x-12 {
-    -moz-column-gap: 3rem;
-         column-gap: 3rem;
-  }
-
-  .sm\:gap-x-2 {
-    -moz-column-gap: 0.5rem;
-         column-gap: 0.5rem;
-  }
-
-  .sm\:gap-x-20 {
-    -moz-column-gap: 5rem;
-         column-gap: 5rem;
-  }
-
-  .sm\:gap-x-6 {
-    -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
   }
 
   .sm\:py-48 {

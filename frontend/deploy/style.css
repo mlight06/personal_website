@@ -196,6 +196,20 @@
   /* height: 100dvh; */
 
 }
+.tile-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
 /* .icons {
   display: flex;
   justify-content: space-between;

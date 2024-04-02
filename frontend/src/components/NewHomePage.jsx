@@ -2,13 +2,13 @@ import React from 'react'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { Avatar } from '@mui/material'
 import { motion } from 'framer-motion';
-import NewPortfolio from './NewPortfolio'
+import NewPortfolio from './NewPortfolio';
+import Contact from './Contact'
 
 const navigation = [
-  { name: 'Portfolio', href: '#',scroll: 600 },
-  { name: 'About me', href: '#' },
+  { name: 'Portfolio', href: '#',scroll: 700 },
+  { name: 'Contact', href: '#', scroll: 1400 },
 
 ]
 
@@ -170,6 +170,9 @@ export default function Navigation() {
       </div>
       <div>
         <NewPortfolio />
+      </div>
+      <div className='contact'>
+        <Contact />
       </div>
     </div>
   )
