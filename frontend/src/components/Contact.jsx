@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card, Typography  } from "@mui/material";
+import { Container, Card, Typography, createTheme, ThemeProvider  } from "@mui/material";
 import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -7,13 +7,21 @@ import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Contact(){
+  const headlines = createTheme({
+    typography: {
+      fontSize: 14,
+      fontFamily: "inherit",
+    }
+  })
   return (
     <div>
         <Container>
         <Card sx={{boxShadow: "none"}}>
-          <Typography variant="h3">
-            Contact Me
-          </Typography>
+          <ThemeProvider theme={headlines}>
+            <Typography variant="h3">
+              Contact Me
+            </Typography>
+          </ThemeProvider>
         </Card>
           <div className="icons">
             <motion.div
@@ -30,7 +38,7 @@ export default function Contact(){
             >
               <Link to="mailto:mklight06@gmail.com">
 
-                <EmailIcon sx={{ color: 'white', fontSize: 60 }} />
+                <EmailIcon sx={{ color: 'purple', fontSize: 60 }} />
               </Link>
             </motion.div>
             <motion.div

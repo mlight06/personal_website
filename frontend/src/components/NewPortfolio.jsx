@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Card, CardContent, Typography } from "@mui/material";
+import { Container, Grid, Card, CardContent, Typography, createTheme, ThemeProvider } from "@mui/material";
 import Tile from "./Tile";
 import repos from "../constants/repos";
 
@@ -22,17 +22,27 @@ export default function NewPortfolio() {
   }
 
   ]
+  const headlines = createTheme({
+    typography: {
+      fontSize: 14,
+      fontFamily: "inherit",
+    }
+  })
   return (
       <Container sx={{display: "flex",flexDirection: "column", alignItems: "center" ,justifyContent: "center"}}>
         <Card sx={{boxShadow: "none"}}>
-          <Typography variant="h2">
-            Portfolio
-          </Typography>
+          <ThemeProvider theme={headlines}>
+            <Typography variant="h2" color="blue">
+              Portfolio
+            </Typography>
+          </ThemeProvider>
         </Card>
         <Card sx={{boxShadow: "none", margin: "2rem"}}>
-          <Typography variant="h3">
-            Professional Experience
-          </Typography>
+          <ThemeProvider theme={headlines}>
+            <Typography variant="h3">
+              Professional Experience
+            </Typography>
+          </ThemeProvider>
         </Card>
       {portfolio.map((section,index) => {
         return (
@@ -52,9 +62,11 @@ export default function NewPortfolio() {
         })
         }
          <Card sx={{boxShadow: "none", margin: "2rem"}}>
-          <Typography variant="h3">
-            Projects
-          </Typography>
+          <ThemeProvider theme={headlines}>
+            <Typography variant="h3">
+              Projects
+            </Typography>
+          </ThemeProvider>
         </Card>
 
         <div className="tile-container">
