@@ -30,9 +30,9 @@ export default function Portfolio() {
           </motion.div>
         </div>
 
-        <div className="resume">
+        {/* <div className="resume">
           <embed src={resume} title="resume" width="80%" height="80%" />
-        </div>
+        </div> */}
         <div className="project-title">
           Projects
         </div>
