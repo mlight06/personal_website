@@ -18,7 +18,7 @@ export default function NewPortfolio() {
   {
     title: "Optical Manager/ Optician",
     company: "Affiliated Doctors of Optometry - 04/2011 - 06/2021",
-    experience: "In the \"before times\", I managed and oversaw daily operations for a small optometry office. Duties included training new staff, developing sale strategies to increase revenue, and overall ensure customer satisfaction."
+    experience: "In the \"before times\", I managed and oversaw daily operations for a small optometry office. Duties included training new staff, developing sales strategies to increase revenue, and overall ensure customer satisfaction."
   }
 
   ]
