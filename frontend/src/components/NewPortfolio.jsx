@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Card, CardContent } from "@mui/material";
+import { Container, Grid, Card, CardContent, Typography } from "@mui/material";
 
 export default function NewPortfolio() {
   const portfolio = [{
@@ -16,17 +16,20 @@ export default function NewPortfolio() {
   {
     title: "Optical Manager/ Optician",
     company: "Affiliated Doctors of Optometry - 04/2011 - 06/2021",
-    experiene: "In the \"before times\", I managed and oversaw daily operations for a small optometry office. Duties included training new staff, developing sale strategies to increase revenue, and overall ensure customer satisfaction."
+    experience: "In the \"before times\", I managed and oversaw daily operations for a small optometry office. Duties included training new staff, developing sale strategies to increase revenue, and overall ensure customer satisfaction."
   }
 
   ]
   return (
-    <div className="portfolio">
-      {portfolio.map(section => {
+      <Container sx={{display: "flex",flexDirection: "column", alignItems: "center" ,justifyContent: "center"}}>
+        <Card sx={{boxShadow: "none"}}>
+          <Typography variant="h2">
+            Portfolio
+          </Typography>
+        </Card>
+      {portfolio.map((section,index) => {
         return (
-
-          <Container>
-            <Card >
+            <Card sx={{maxWidth: 900, margin: "1rem"}} key={index}>
               <CardContent>
                 {section.title}
 
@@ -38,9 +41,9 @@ export default function NewPortfolio() {
                 {section.experience}
               </CardContent>
             </Card>
-          </Container>
         )
-      })}
-    </div>
+        })
+        }
+       </Container>
   )
 }

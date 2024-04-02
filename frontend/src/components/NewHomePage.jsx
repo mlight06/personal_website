@@ -7,10 +7,14 @@ import { motion } from 'framer-motion';
 import NewPortfolio from './NewPortfolio'
 
 const navigation = [
-  { name: 'Portfolio', href: '#' },
+  { name: 'Portfolio', href: '#',scroll: 600 },
   { name: 'About me', href: '#' },
 
 ]
+
+function handleScroll(x, y) {
+  return scrollTo(x,y)
+}
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -42,7 +46,12 @@ export default function Navigation() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12" >
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+              <a key={item.name}
+                  href={item.href}
+                  className="text-sm font-semibold leading-6 text-gray-900"
+                  onClick={() => window.scrollTo({top: item.scroll, behavior: "smooth"})}
+              >
+
                 {item.name}
               </a>
             ))}
