@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import {
-  Card, CardMedia, Link, CardContent,
+  Card, CardMedia, Link, CardContent, Container
 } from '@mui/material';
 
 // eslint-disable-next-line react/prop-types
-export default function Tile({ link, picture, description }) {
+export default function Tile({ link, picture, description, title }) {
   return (
-    <div>
+    <Container>
 
       <Link href={link} rel="noopener noreferrer" target="_blank">
         <motion.div
@@ -15,6 +15,11 @@ export default function Tile({ link, picture, description }) {
         >
 
           <Card sx={{ maxWidth: 300 }} className="tile">
+            <CardContent>
+              <div>
+                {title}
+              </div>
+            </CardContent>
             <CardMedia
               component="img"
               sx={{ height: 140 }}
@@ -27,6 +32,6 @@ export default function Tile({ link, picture, description }) {
           </Card>
         </motion.div>
       </Link>
-    </div>
+    </Container>
   );
 }
