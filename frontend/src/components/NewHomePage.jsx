@@ -4,6 +4,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Avatar } from '@mui/material'
 import { motion } from 'framer-motion';
+import NewPortfolio from './NewPortfolio'
 
 const navigation = [
   { name: 'Portfolio', href: '#' },
@@ -86,14 +87,14 @@ export default function Navigation() {
                     </a>
                   ))}
                 </div>
-                <div className="py-6">
+                {/* <div className="py-6">
                   <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Log in
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </Dialog.Panel>
@@ -140,7 +141,7 @@ export default function Navigation() {
             </h1>
             <p className="mt-6 text-lg leading-8 text-purple-700">
               I'm a software engineer currently based in Colorado. I have experience building out fullstack
-              applications from inception to completion in production level environments. I leverage my
+              applications from product inception to delivery in production level environments. I leverage my
               experience working in small teams to be versed in backend, frontend, and devops work.
             </p>
             <p className="mt-6 text-xl leading-8 text-purple-900">
@@ -161,6 +162,9 @@ export default function Navigation() {
             }}
           />
         </div>
+      </div>
+      <div>
+        <NewPortfolio />
       </div>
     </div>
   )
