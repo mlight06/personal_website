@@ -8,7 +8,7 @@ import Contact from './Contact'
 
 const navigation = [
   { name: 'Portfolio', href: '#',scroll: 700 },
-  { name: 'Contact', href: '#', scroll: 1700 },
+  { name: 'Contact', href: '#', scroll: 100 },
 
 ]
 
@@ -22,11 +22,11 @@ export default function Navigation() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+              {/* <img
                 className="h-8 w-auto"
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
-              />
+              /> */}
             </a>
           </div>
           {/* Mobile hamburger menu */}
