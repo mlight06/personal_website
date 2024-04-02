@@ -8,7 +8,7 @@ import Contact from './Contact'
 
 const navigation = [
   { name: 'Portfolio', href: '#',scroll: 700 },
-  { name: 'Contact', href: '#', scroll: 1400 },
+  { name: 'Contact', href: '#', scroll: 1900 },
 
 ]
 
