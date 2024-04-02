@@ -7,8 +7,8 @@ import NewPortfolio from './NewPortfolio';
 import Contact from './Contact'
 
 const navigation = [
-  { name: 'Portfolio', href: '#',scroll: 700 },
-  { name: 'Contact', href: '#', scroll: 100 },
+  { name: 'Portfolio', scroll: 700 },
+  { name: 'Contact', scroll: 1700 },
 
 ]
 
@@ -43,7 +43,6 @@ export default function Navigation() {
           <div className="hidden lg:flex lg:gap-x-12" >
             {navigation.map((item) => (
               <a key={item.name}
-                  href={item.href}
                   className="text-sm font-semibold leading-6 text-gray-900"
                   onClick={() => window.scrollTo({top: item.scroll, behavior: "smooth"})}
               >
@@ -85,7 +84,6 @@ export default function Navigation() {
                   {navigation.map((item) => (
                     <a
                       key={item.name}
-                      href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
