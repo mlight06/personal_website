@@ -48,7 +48,7 @@ export default function NewPortfolio() {
         </Card>
         <div>
         <ThemeProvider theme={headlines}>
-          <a href='https://docs.google.com/document/d/1e-Y6uS-njEdc17D5YbFZqCojmB0Ktixc13ZpnJIlVL4/edit?usp=sharing'>
+          <a href='https://docs.google.com/document/d/1e-Y6uS-njEdc17D5YbFZqCojmB0Ktixc13ZpnJIlVL4/edit?usp=sharing' target="_blank">
             <Typography variant="h4" color='#314AB0'>
               Click here to see my Resume!
             </Typography>
