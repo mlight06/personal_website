@@ -5,20 +5,16 @@ import { motion } from 'framer-motion';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { headlines } from "../constants/themes";
 
 export default function Contact(){
-  const headlines = createTheme({
-    typography: {
-      fontSize: 14,
-      fontFamily: "inherit",
-    }
-  })
+
   return (
     <div>
         <Container>
         <Card sx={{boxShadow: "none"}}>
           <ThemeProvider theme={headlines}>
-            <Typography variant="h3">
+            <Typography variant="h3" color='#43137D'>
               Contact Me
             </Typography>
           </ThemeProvider>

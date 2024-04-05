@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Grid, Card, CardContent, Typography, createTheme, ThemeProvider } from "@mui/material";
 import Tile from "./Tile";
 import repos from "../constants/repos";
+import { headlines } from "../constants/themes";
 
 export default function NewPortfolio() {
   const portfolio = [{
@@ -22,28 +23,38 @@ export default function NewPortfolio() {
   }
 
   ]
-  const headlines = createTheme({
-    typography: {
-      fontSize: 14,
-      fontFamily: "inherit",
-    }
-  })
+  // const headlines = createTheme({
+  //   typography: {
+  //     fontSize: 14,
+  //     fontFamily: `"Tilt Neon", 'sans-serif'`,
+
+  //   }
+  // })
   return (
       <Container sx={{display: "flex",flexDirection: "column", alignItems: "center" ,justifyContent: "center"}}>
         <Card sx={{boxShadow: "none"}}>
           <ThemeProvider theme={headlines}>
-            <Typography variant="h2" color="blue">
+            <Typography variant="h2" color="#0C2483">
               Portfolio
             </Typography>
           </ThemeProvider>
         </Card>
         <Card sx={{boxShadow: "none", margin: "2rem"}}>
           <ThemeProvider theme={headlines}>
-            <Typography variant="h3">
+            <Typography variant="h3" color='#43137D'>
               Professional Experience
             </Typography>
           </ThemeProvider>
         </Card>
+        <div>
+        <ThemeProvider theme={headlines}>
+          <a href='https://docs.google.com/document/d/1e-Y6uS-njEdc17D5YbFZqCojmB0Ktixc13ZpnJIlVL4/edit?usp=sharing'>
+            <Typography variant="h4" color='#314AB0'>
+              Click here to see my Resume!
+            </Typography>
+          </a>
+          </ThemeProvider>
+        </div>
       {portfolio.map((section,index) => {
         return (
             <Card sx={{maxWidth: 900, margin: "1rem"}} key={index}>
@@ -63,7 +74,7 @@ export default function NewPortfolio() {
         }
          <Card sx={{boxShadow: "none", margin: "2rem"}}>
           <ThemeProvider theme={headlines}>
-            <Typography variant="h3">
+            <Typography variant="h3" color='#43137D'>
               Projects
             </Typography>
           </ThemeProvider>
