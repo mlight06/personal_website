@@ -71,7 +71,6 @@ export default function NewPortfolio() {
 
         <div className="tile-container">
           {repos.map((repo) => <Tile link={repo.link} picture={repo.picture} description={repo.description} title={repo.title} className="portfolio-tile" />)}
-          {/* {repos.map((repo) => console.log('repo', repo.link))} */}
         </div>
 
        </Container>
