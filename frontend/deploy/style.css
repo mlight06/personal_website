@@ -211,6 +211,9 @@
   justify-content: center;
   margin: 1rem 0rem;
 }
+a:hover {
+  cursor: grab;
+}
 /* .icons {
   display: flex;
   justify-content: space-between;
